@@ -11,6 +11,11 @@ html, body {
     background-size: cover;
     position: relative;
 }
+.noImg {
+    background-image: none;
+    background-color: grey;
+    height:45%;
+}
 .sec1-overlay {
     position: absolute;
     text-align:center;
