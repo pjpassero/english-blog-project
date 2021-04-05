@@ -1,8 +1,19 @@
 .sec1 {
-    background-image: url('images/iwojimaflag.png');
+    background-image: url('../images/iwojimaflag.png');
     height:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.sec1-overlay {
+    position: absolute;
+    text-align:center;
+    height:100%;
+    max-width:100%;
+    top:0;
+    left:0;
+    color:white;
+    font-weight:bold;
+    background-color:rgba(0,0,0,0.5);
 }
