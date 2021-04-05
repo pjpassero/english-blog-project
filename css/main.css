@@ -1,0 +1,8 @@
+.sec1 {
+    background-image: url('/images/iwojimaflag.png');
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
