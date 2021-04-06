@@ -11,6 +11,9 @@ html, body {
     background-size: cover;
     position: relative;
 }
+.sec {
+    height:auto;
+}
 .noImg {
     background-image: none;
     background-color: grey;
@@ -36,4 +39,14 @@ html, body {
 .card:hover {
     cursor: pointer;
     background-color:rgba(0,0,0,0.4);
+}
+section {
+    max-width:100%;
+}
+.sec:hover {
+    cursor: pointer;
+    background-color:rgba(0,0,0,0.4);
+}
+hr {
+    width:65%;
 }
